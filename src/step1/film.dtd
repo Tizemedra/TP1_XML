@@ -1,0 +1,21 @@
+<!DOCTYPE films [
+        <!ELEMENT films (film)*>
+        <!ELEMENT film (title|genres|duration|director|language|nationality|actors|year|ratings|summary|projections)*>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT genres (#PCDATA)>
+        <!ELEMENT duration (#PCDATA)>
+        <!ELEMENT director (#PCDATA)>
+        <!ELEMENT language (#PCDATA)>
+        <!ELEMENT nationality (#PCDATA)>
+        <!ELEMENT actors (actor)*>
+        <!ELEMENT actor (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT ratings (press|spectators)?>
+        <!ELEMENT press (#PCDATA)>
+        <!ELEMENT spectators (#PCDATA)>
+        <!ELEMENT summary (#PCDATA)>
+        <!ELEMENT projections (projection|day|schedule)+>
+        <!ELEMENT projection (day|schedule)+>
+        <!ELEMENT day (#PCDATA)>
+        <!ELEMENT schedule (#PCDATA)>
+        ]>

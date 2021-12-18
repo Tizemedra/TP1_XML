@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<films>
+    <film>
+        <title>Les Brigades du Tigre</title>
+        <genres>Thriller</genres>
+        <duration>2h05min</duration>
+        <director>Jerome Cornuau</director>
+        <language>VF (en Français)</language>
+        <nationality>Américain</nationality>
+        <actors>
+            <actor>C. Cornillac,</actor>
+            <actor>D. Kruger,</actor>
+            <actor>E. Baer</actor>
+        </actors>
+        <year>2005</year>
+        <ratings>
+            <press>Presse : 3/5</press>
+            <spectators>Spectateurs : 4/5</spectators>
+        </ratings>
+        <summary>About the adventures of commissar Valentin and inspectors Terrasson and Pujol, members of the "
+            Brigades
+            mobiles",
+            special squad of the French police before the first world war..
+        </summary>
+        <projections>
+            <projection>
+                <day>Mercredi, Samedi :</day>
+                <schedule>14:00 | 16:40 | 19:40 | 22:10</schedule>
+            </projection>
+            <projection>
+
+                <day>Lundi, Mardi, Jeudi, Vendredi, :</day>
+                <schedule>14:00 | 19:40 | 22:10</schedule>
+            </projection>
+            <projection>
+                <day>Dimanche :</day>
+                <schedule>10:20 | 14:00 | 16:40 | 20:20</schedule>
+            </projection>
+        </projections>
+    </film>
+    <!--film 2-->
+    <film>
+        <title>Avengers : Endgame</title>
+        <genres>Action, Fantastique, Aventure</genres>
+        <duration>3h01min</duration>
+        <director>Joe Russo, Anthony Russo</director>
+        <language>VF (en Français)</language>
+        <nationality>Américain</nationality>
+        <actors>
+            <actor>Robert Downey Jr.,</actor>
+            <actor>Chris Evans,</actor>
+            <actor>Mark Ruffalo</actor>
+        </actors>
+        <year>2019</year>
+        <ratings>
+            <press>Presse : 3,2/5</press>
+            <spectators>Spectateurs : 4,2/5</spectators>
+        </ratings>
+        <summary>Thanos ayant anéanti la moitié de l’univers, les Avengers restants resserrent les rangs dans ce
+            vingt-deuxième film des Studios Marvel,
+            grande conclusion d’un des chapitres de l’Univers
+            Cinématographique Marvel.
+        </summary>
+        <projections>
+            <projection>
+                <day>Mercredi, Samedi :</day>
+                <schedule>14:00 | 16:40 | 19:40 | 22:10</schedule>
+            </projection>
+            <projection>
+                <day>Lundi, Mardi, Jeudi, Vendredi, :</day>
+                <schedule>14:00 | 19:40 | 22:10</schedule>
+            </projection>
+            <projection>
+                <day>Dimanche :</day>
+                <schedule>10:20 | 14:00 | 16:40 | 20:20</schedule>
+            </projection>
+        </projections>
+    </film>
+    <!--film 3-->
+    <film>
+        <title>S.O.S. FANTÔMES : L'HÉRITAGE</title>
+        <genres>Aventure, Action, Comédie</genres>
+        <duration>2h 04min</duration>
+        <director>Jason Reitman</director>
+        <language>VF (en Français)</language>
+        <nationality>Américain</nationality>
+        <actors>
+            <actor>Carrie Coon,</actor>
+            <actor>Finn Wolfhard,</actor>
+            <actor>Mckenna Grace</actor>
+        </actors>
+        <year>2021</year>
+        <ratings>
+            <press>Presse : 3,0/5</press>
+            <spectators>Spectateurs : 3,8/5</spectators>
+        </ratings>
+        <summary>Une mère célibataire et ses deux enfants s'installent dans une petite ville et découvrent peu à peu
+            leur
+            relation
+            avec les chasseurs de fantômes et l'héritage légué par leur grand-père.
+        </summary>
+        <projections>
+            <projection>
+                <day>Mercredi, Samedi :</day>
+                <schedule>14:00 | 16:40 | 19:40 | 22:10</schedule>
+            </projection>
+            <projection>
+                <day>Lundi, Mardi, Jeudi, Vendredi, :</day>
+                <schedule>14:00 | 19:40 | 22:10</schedule>
+            </projection>
+            <projection>
+                <day>Dimanche :</day>
+                <schedule>10:20 | 14:00 | 16:40 | 20:20</schedule>
+            </projection>
+        </projections>
+    </film>
+    <!--film 4-->
+    <film>
+        <title>ENCANTO, LA FANTASTIQUE FAMILLE MADRIGAL</title>
+        <genres>Animation, Famille, Fantastique, Comédie</genres>
+        <duration>1h 43min</duration>
+        <director>Byron Howard, Jared Bush, Charise Castro Smith</director>
+        <language>VF (en Français)</language>
+        <nationality>Américain</nationality>
+        <actors>
+            <actor>Camille Timmerman,</actor>
+            <actor>José Garcia,</actor>
+            <actor>Juan Arbelaez</actor>
+        </actors>
+        <year>2021</year>
+        <ratings>
+            <press>Presse : 3,7/5</press>
+            <spectators>Spectateurs : 3,8/5</spectators>
+        </ratings>
+        <summary>Dans un mystérieux endroit niché au cœur des montagnes de
+            Colombie, la fantastique famille Madrigal habite une maison enchantée dans une cité pleine de vie, un
+            endroit merveilleux appelé Encanto. L’Encanto a doté chacun des enfants de la famille d’une faculté magique
+            allant d’une force surhumaine au pouvoir de guérison. Seule Mirabel n’a reçu aucun don particulier. Mais
+            lorsque la magie de l’Encanto se trouve menacée, la seule enfant ordinaire de cette famille extraordinaire
+            va peut-être se révéler leur unique espoir…
+        </summary>
+        <projections>
+            <day>Mercredi, Samedi :</day>
+            <schedule>14:00 | 16:40 | 19:40 | 22:10</schedule>
+            <day>Lundi, Mardi, Jeudi, Vendredi, :</day>
+            <schedule>14:00 | 19:40 | 22:10</schedule>
+            <day>Dimanche :</day>
+            <schedule>10:20 | 14:00 | 16:40 | 20:20</schedule>
+        </projections>
+    </film>
+    <!--film 5-->
+    <film>
+        <title>SHANG-CHI ET LA LÉGENDE DES DIX ANNEAUX</title>
+        <genres>Action, Fantastique</genres>
+        <duration>2h 12min</duration>
+        <director>Destin Daniel Cretton</director>
+        <language>VF (en Français)</language>
+        <nationality>Américain</nationality>
+        <actors>
+            <actor>Simu Liu,</actor>
+            <actor>Tony Leung Chiu-Wai,</actor>
+            <actor>Awkwafina</actor>
+        </actors>
+        <year>2021</year>
+        <ratings>
+            <press>Presse : 3,3/5</press>
+            <spectators>Spectateurs : 3,9/5</spectators>
+        </ratings>
+        <summary>Shang-Chi va devoir affronter un passé qu’il pensait
+            avoir laissé derrière lui lorsqu’il est pris dans la toile de la mystérieuse organisation des dix anneaux.
+        </summary>
+        <projections>
+            <projection>
+                <day>Mercredi, Samedi :</day>
+                <schedule>14:00 | 16:40 | 19:40 | 22:10</schedule>
+            </projection>
+            <projection>
+                <day>Lundi, Mardi, Jeudi, Vendredi, :</day>
+                <schedule>14:00 | 19:40 | 22:10</schedule>
+            </projection>
+            <projection>
+                <day>Dimanche :</day>
+                <schedule>10:20 | 14:00 | 16:40 | 20:20</schedule>
+            </projection>
+        </projections>
+    </film>
+</films>
