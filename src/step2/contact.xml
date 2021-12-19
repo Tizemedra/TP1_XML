@@ -1,0 +1,61 @@
+<contacts>
+
+    <!--Contact 1-->
+    <contact>
+        <contact_type>Personne</contact_type>
+        <person>
+            <name>Stark</name>
+            <surname>Tony</surname>
+        </person>
+        <telephone>
+            <num_tel>2129704133</num_tel>
+            <type_tel>Portable</type_tel>
+        </telephone>
+        <address>
+            <street_num>10880</street_num>
+            <street_name>Malibu Point</street_name>
+            <city>Malibu</city>
+            <zip_code>90265</zip_code>
+            <country>USA</country>
+        </address>
+    </contact>
+
+    <!--Contact 2-->
+    <contact>
+        <contact_type>Compagnie</contact_type>
+        <company>
+            <name>Disneyland</name>
+        </company>
+        <telephone>
+            <num_tel>0825300500</num_tel>
+            <type_tel>Fax</type_tel>
+        </telephone>
+        <address>
+            <street_num>0</street_num>
+            <street_name>Bd de Parc</street_name>
+            <city>Coupvray</city>
+            <zip_code>77700</zip_code>
+        </address>
+    </contact>
+
+    <!--Contact 3-->
+    <contact>
+        <contact_type>Personne</contact_type>
+        <person>
+            <name>Jean</name>
+            <surname>Dupont</surname>
+        </person>
+        <telephone>
+            <num_tel>0123456789</num_tel>
+            <type_tel>Portable</type_tel>
+        </telephone>
+        <address>
+            <street_num>73</street_num>
+            <street_name>Rue de Paris</street_name>
+            <city>Paris</city>
+            <zip_code>75001</zip_code>
+            <country>FR</country>
+        </address>
+    </contact>
+
+</contacts>
