@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!--
+•	Press and spectators rating are optional.
+•	Every movie must have a title
+•	Every movie must have at least one projection time.
+-->
 <films>
     <film>
         <title>Les Brigades du Tigre</title>

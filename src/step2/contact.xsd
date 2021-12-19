@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="contacts">
+        <xs:annotation>
+            <xs:documentation>
+                • Indication whether the contact is a person or a company, etc.,
+                • Its name,
+                • Surname (Only for persons),
+                • Its Phone numbers and their kind (mobile, fax, etc.)
+                • Address in terms of Street number and name, city, zip code and eventually a country.
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="contact" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="contact_type">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Personne"/>
+                                        <xs:enumeration value="Compagnie"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="surname" type="xs:string" minOccurs="0"/>
+
+                            <xs:element name="telephone">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="num_tel" type="xs:integer">
+                                        </xs:element>
+                                        <xs:element name="type_tel">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Portable"/>
+                                                    <xs:enumeration value="Fax"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="address">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="street_num" type="xs:integer"/>
+                                        <xs:element name="street_name" type="xs:string"/>
+                                        <xs:element name="city" type="xs:string"/>
+                                        <xs:element name="zip_code" type="xs:integer"/>
+                                        <xs:element name="country" minOccurs="0" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
