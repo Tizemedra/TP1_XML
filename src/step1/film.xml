@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 •	Press and spectators rating are optional.
-•	Every movie must have a title
-•	Every movie must have at least one projection time.
+•	Chaque film a un titre
+•	Chaque fil ou série a une estimation de durée 
 -->
 <films>
     <film>
-        <title>Les Brigades du Tigre</title>
+        <title>No time to die</title>
         <genres>Thriller</genres>
-        <duration>2h05min</duration>
-        <director>Jerome Cornuau</director>
+        <duration>2h 05min</duration>
+        <director>Cary Joji Fukunaga</director>
         <language>VF (en Français)</language>
         <nationality>Américain</nationality>
         <actors>
-            <actor>C. Cornillac,</actor>
-            <actor>D. Kruger,</actor>
-            <actor>E. Baer</actor>
+            <actor>James Bond,</actor>
+            <actor>Ramy Malick,</actor>
+            <actor>Naomie Harris</actor>
         </actors>
-        <year>2005</year>
+        <year>2021</year>
         <ratings>
             <press>Presse : 3/5</press>
             <spectators>Spectateurs : 4/5</spectators>
@@ -45,26 +45,27 @@
     </film>
     <!--film 2-->
     <film>
-        <title>Avengers : Endgame</title>
+        <title>Without Remorse</title>
         <genres>Action, Fantastique, Aventure</genres>
-        <duration>3h01min</duration>
-        <director>Joe Russo, Anthony Russo</director>
-        <language>VF (en Français)</language>
+        <duration>110min</duration>
+        <director>Stefano Sollima</director>
+        <language>VostFr (en Français)</language>
         <nationality>Américain</nationality>
         <actors>
-            <actor>Robert Downey Jr.,</actor>
+            <actor>Michael Bakari Jordan</actor>
             <actor>Chris Evans,</actor>
-            <actor>Mark Ruffalo</actor>
+            <actor>John Clark</actor>
         </actors>
-        <year>2019</year>
+        <year>2021</year>
         <ratings>
             <press>Presse : 3,2/5</press>
-            <spectators>Spectateurs : 4,2/5</spectators>
+            <spectators>Spectateurs : 4,3/5</spectators>
         </ratings>
-        <summary>Thanos ayant anéanti la moitié de l’univers, les Avengers restants resserrent les rangs dans ce
-            vingt-deuxième film des Studios Marvel,
-            grande conclusion d’un des chapitres de l’Univers
-            Cinématographique Marvel.
+        <summary>Le film revient sur les origines de John Clark, ici, portant encore son vrai nom, 
+            John Kelly, un personnage apparu dans plusieurs romans de l'auteur depuis 
+            Le Cardinal du Kremlin. Paramount Pictures devait initialement le distribuer au cinéma mais, 
+            en raison de la pandémie de Covid-19,
+            Amazon Studios le diffuse sur sa plateforme sur Prime Video1.
         </summary>
         <projections>
             <projection>
@@ -83,26 +84,27 @@
     </film>
     <!--film 3-->
     <film>
-        <title>S.O.S. FANTÔMES : L'HÉRITAGE</title>
-        <genres>Aventure, Action, Comédie</genres>
-        <duration>2h 04min</duration>
-        <director>Jason Reitman</director>
+        <title>Toy Boy</title>
+        <genres>Aventure, Action</genres>
+        <duration>2h 30min</duration>
+        <director>JDavid Mackenzie</director>
         <language>VF (en Français)</language>
         <nationality>Américain</nationality>
         <actors>
-            <actor>Carrie Coon,</actor>
-            <actor>Finn Wolfhard,</actor>
-            <actor>Mckenna Grace</actor>
+            <actor>Anne Heche,</actor>
+            <actor>Margarita Levieva,</actor>
+            <actor>Sebastian Stan</actor>
         </actors>
         <year>2021</year>
         <ratings>
             <press>Presse : 3,0/5</press>
-            <spectators>Spectateurs : 3,8/5</spectators>
+            <spectators>Spectateurs : 3,6/5</spectators>
         </ratings>
-        <summary>Une mère célibataire et ses deux enfants s'installent dans une petite ville et découvrent peu à peu
-            leur
-            relation
-            avec les chasseurs de fantômes et l'héritage légué par leur grand-père.
+        <summary>À Marbella sur la Costa del Sol, un stripteaser2, Hugo Beltrán, 
+            est mis en liberté conditionnelle après avoir passé sept ans en prison. Il était accusé d'avoir tué Philip Norman, 
+            le mari de sa riche maîtresse Macarena Medina.
+            Désormais, Hugo veut faire toute la lumière sur ce meurtre pour lequel il a porté le chapeau, 
+            avec l'aide de son avocate Triana et de ses amis stripteasers.
         </summary>
         <projections>
             <projection>
@@ -122,27 +124,26 @@
     <!--film 4-->
     <film>
         <title>ENCANTO, LA FANTASTIQUE FAMILLE MADRIGAL</title>
-        <genres>Animation, Famille, Fantastique, Comédie</genres>
-        <duration>1h 43min</duration>
-        <director>Byron Howard, Jared Bush, Charise Castro Smith</director>
+        <genres>Drame, Thriller, braquage</genres>
+        <duration> 6h 06mn</duration>
+        <director>Álex Pina</director>
         <language>VF (en Français)</language>
         <nationality>Américain</nationality>
         <actors>
-            <actor>Camille Timmerman,</actor>
-            <actor>José Garcia,</actor>
-            <actor>Juan Arbelaez</actor>
+            <actor>Úrsula Corberó</actor>
+            <actor>Álvaro Morte</actor>
+            <actor>Pedro Alonso</actor>
         </actors>
         <year>2021</year>
         <ratings>
             <press>Presse : 3,7/5</press>
-            <spectators>Spectateurs : 3,8/5</spectators>
+            <spectators>Spectateurs : 4,8/5</spectators>
         </ratings>
-        <summary>Dans un mystérieux endroit niché au cœur des montagnes de
-            Colombie, la fantastique famille Madrigal habite une maison enchantée dans une cité pleine de vie, un
-            endroit merveilleux appelé Encanto. L’Encanto a doté chacun des enfants de la famille d’une faculté magique
-            allant d’une force surhumaine au pouvoir de guérison. Seule Mirabel n’a reçu aucun don particulier. Mais
-            lorsque la magie de l’Encanto se trouve menacée, la seule enfant ordinaire de cette famille extraordinaire
-            va peut-être se révéler leur unique espoir…
+        <summary>Un homme mystérieux, surnommé le Professeur3, planifie le meilleur braquage jamais réalisé.
+            Pour exécuter son plan, il recrute huit des meilleurs malfaiteurs en Espagne qui n'ont rien à perdre.
+            Le but est d'infiltrer la Fabrique nationale de la monnaie et du timbre afin d'imprimer 2,4 milliards d'euros, en petites coupures de 50 € et cela en moins de onze jours, sans victimes — malgré la présence de 67 otages, dont la fille de l'ambassadeur du Royaume-Uni, Alison Parker. 
+            Lors de la deuxième saison, le Professeur reprend le plan d'un braquage organisé par son frère avant le premier braquage. 
+            Le but est d'infiltrer la Banque d'Espagne afin de dérober 92 tonnes d'or.
         </summary>
         <projections>
             <day>Mercredi, Samedi :</day>
@@ -155,24 +156,24 @@
     </film>
     <!--film 5-->
     <film>
-        <title>SHANG-CHI ET LA LÉGENDE DES DIX ANNEAUX</title>
-        <genres>Action, Fantastique</genres>
-        <duration>2h 12min</duration>
-        <director>Destin Daniel Cretton</director>
+        <title>SQUID GAME</title>
+        <genres>Action, drame, thriller, Dystopie, Aventure,</genres>
+        <duration>4h 04min</duration>
+        <director>Hwang Dong-hyeok</director>
         <language>VF (en Français)</language>
         <nationality>Américain</nationality>
         <actors>
-            <actor>Simu Liu,</actor>
-            <actor>Tony Leung Chiu-Wai,</actor>
-            <actor>Awkwafina</actor>
+            <actor>Jung Ho-yeon,</actor>
+            <actor>Lee Jung-jae,</actor>
+            <actor>Park Hae-soo</actor>
         </actors>
         <year>2021</year>
         <ratings>
-            <press>Presse : 3,3/5</press>
-            <spectators>Spectateurs : 3,9/5</spectators>
+            <press>Presse : 4,9/5</press>
+            <spectators>Spectateurs : 9,9/5</spectators>
         </ratings>
-        <summary>Shang-Chi va devoir affronter un passé qu’il pensait
-            avoir laissé derrière lui lorsqu’il est pris dans la toile de la mystérieuse organisation des dix anneaux.
+        <summary> Le Jeu du calmar au Québec, est une série télévisée dramatique de survie sud-coréenne de 9 épisodes, 
+            créée par Hwang Dong-hyeok et diffusée dans le monde entier le 17 septembre 2021 sur Netflix . 
         </summary>
         <projections>
             <projection>
